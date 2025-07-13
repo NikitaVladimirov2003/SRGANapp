@@ -1,8 +1,3 @@
-import subprocess
-import sys
-# Запомните: всегда следует работать в рамках вашего текущего окружения.
-subprocess.run([sys.executable, '-m', 'pip', 'install', 'torchvision'])
-
 
 import streamlit as st
 import torchvision.transforms as tt
